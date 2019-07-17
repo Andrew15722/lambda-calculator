@@ -1,0 +1,93 @@
+.container {
+  width: 470px;
+  height: 735px;
+  background-color: #a81d36;
+  margin: 100px auto 0;
+  border-radius: 20px;
+}
+
+.container .App {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.container .App .specials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.container .App .numbers {
+  width: 65.2%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.container .App .operators {
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.container .App .divBtn {
+  margin: 0 8px;
+}
+
+.container .App .divBtn button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  -webkit-box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.container .App .divBtn .numberBtn {
+  background-color: #184379;
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+.container .App .divBtn .operatorBtn {
+  background-color: #237293;
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+.container .App .divBtn .specialBtn {
+  background-color: #225d9e;
+  font-size: 30px;
+  color: #f2f2f2;
+}
+
+.container .logo {
+  margin: 35px 0 0 35px;
+}
+
+.container .display {
+  width: 85%;
+  height: 100px;
+  margin: 25px auto 0;
+  background: #323335;
+  border-radius: 100px;
+  text-align: right;
+  font-size: 50px;
+  color: #f2f2f2;
+}
+
+.container .display-num {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=App.css.map */
